@@ -1,0 +1,63 @@
+
+<?php
+ 
+require('conn.php');
+require_once('admin_users.php');
+require_once('functions.php');
+
+?><!-- modal -->
+
+<div id="driver" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+
+    </div>
+    <div class="modal-body">
+           
+        <div class="alert alert-info">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Student Login!</strong>&nbsp;Please Enter the Details Below.
+        </div>
+        <form class="form-horizontal" method="post" action="login.php">
+        
+            <div class="control-group">
+                <label class="control-label" for="inputEmail">Username</label>
+                <div class="controls">
+                    <input type="text" name="uname" id="inputEmail" placeholder="username">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="inputPassword">Password</label>
+                <div class="controls">
+                    <input type="password" name="pword" id="inputPassword" placeholder="Password">
+                </div>
+            </div>
+
+
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" name="login" class="btn btn-info"><i class="icon-signin icon-large"></i>&nbsp;Sign in</button>
+                </div>
+
+
+            </div>
+
+            
+
+
+
+        </form>
+  
+
+        <!-- teacher -->
+
+
+
+
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign icon-large"></i>&nbsp;Close</button>
+
+    </div>
+</div
+
+><!-- end modal -->

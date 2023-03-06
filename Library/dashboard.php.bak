@@ -1,0 +1,23 @@
+<?php include('header.php'); ?>
+<?php include('session.php'); ?>
+<?php include('navbar_dashboard.php'); ?>
+    <div class="container">
+		<div class="margin-top">
+			<div class="row">	
+			<div class="span12">		
+                     <div style="overflow:hidden; width:960px; margin:0 auto; padding:0 20px;"> 
+               
+                        <img src="book1.jpg">
+                      
+                    
+               </div><!-- #pix_diapo -->
+                
+        </div>
+   
+				
+				
+			</div>		
+			</div>
+		</div>
+    </div>
+<?php include('footer.php') ?>
